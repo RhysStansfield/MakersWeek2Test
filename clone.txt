@@ -1,1 +1,3 @@
-Explain what git clone does, in your own words
+In git when you clone it is recreating the entire git directory - this can be somewhere else on your local machine, although more usually done from a central server to your machine or using a site such as github.
+
+For example if I started working on a project that a collegue had set up on a central server I would clone the project repository from the server to my computer, meaning that I have the whole project including git info for looking through versions, creating branches etc all ready as soon as it finishes cloning to my machine.
