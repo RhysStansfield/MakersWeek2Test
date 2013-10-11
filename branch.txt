@@ -1,1 +1,6 @@
-Explain what a branch is, in your own words
+In git branching is an extremely powerful tool - it allows you to create a 'new' version of what you're working on and make and commit changes to it to test out ideas, add features, fix bugs etc without fear of accidentally messing up or breaking the main branch (master) - something that will not make you popular if you're working with a team!
+
+For example, you have your main master branch, then commonly there is another branch called Dev or Develop or something similar - neither of these branches will usually have work being done directly inside them - the flow usually goes something as follows:
+
+You want to add a feature to your program so you create a new branch off of the Develop branch called FeatureA for example, you do your work in feature A, experimenting and testing, once you're happy with your feature you merge it back into the develop branch and delete your feature branch.  Periodically once the develop branch has reached a certain point there will be a merge of the develop branch into the master branch.
+You may also occasionally have small, short lived branches off of the master or develop branches to fix bugs.
