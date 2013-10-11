@@ -1,1 +1,7 @@
-Explain what the 'upstream' remote is usually used for, in your own words
+An 'upstream' remote comes into play if you are working from a forked repository.  The most obvious examples of this will be when using GitHub.
+
+When you fork a repo you can work with it, push and pull to it, etc.  However whilst you are working, more work may have been done on the main repo that you originally forked from - you don't want to finish what you were working on and then realise that whilst you've been working on that there have been some major changes to areas you were working on in the main repo that have now either broken or invalidated what you've been working on.
+
+What you would do to save this pain is add the main repo as an upstream remote - you can pull from this to update your forked repo and keep up to date on what's happening on the main project as you work.
+
+A key thing to note is that whilst you can pull from an upstream to keep your fork updated you can't push to it - all your pushing will be done to your fork, the upstream is simply a way of allowing you to keep your fork up to date with the main fork.
